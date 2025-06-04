@@ -1,0 +1,8 @@
+<suite name="HRM Test Suite">
+    <test name="HRM Functional Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.AdminTest"/>
+        </classes>
+    </test>
+</suite>
