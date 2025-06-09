@@ -85,6 +85,7 @@ public class AdminTest {
         adminPage.searchByStatus("Enabled");
         int results = adminPage.getResultCount();
         test.info("Found " + results + " records.");
+        adminPage.resetSearch();
         if (results > 0) {
             test.pass("Search by status successful.");
         } else {
